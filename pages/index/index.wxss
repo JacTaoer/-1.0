@@ -1,0 +1,45 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+  
+}
+.container{
+  height: 100%;
+}
+.beijin{
+  width: 100%;
+  height: 100%; 
+  
+}
+.lunbo{
+  width: 100%;
+  
+}
+.lunbo swiper{
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 24px;
+}
+.lunbo swiper image{
+  height: 69%;
+  margin-left: 8%;
+}
+.DY{
+  z-index: -1;
+}
+.pfont{
+  margin-top: 17%;
+  font-size: 50rpx;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.pfont span{
+  color: #c59dec;
+  font-size: 100rpx;
+  margin-right: 2%;
+
+}
+
+

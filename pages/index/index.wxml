@@ -1,0 +1,27 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="lunbo">
+    <swiper indicator-dots="true" indicator-color="white" autoplay="{{true}}" previous-margin="60px" next-margin="60px" circular="true" interval="3000">
+      <swiper-item>
+        <image src="/images/meituan1.png" mode="heightFix"></image>
+        <!-- <view class="DY-input">
+          <input bindinput="mousuosuo_input" id="inputText" placeholder="请复制视频链接，粘贴到这来">
+          <button bindtap="mousuosuo_clear" id="submitInputText"></button>
+        </view> -->
+        <view class="pfont"><span>M</span>eituan</view>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/shi.jpg" mode="heightFix"></image>
+        <view class="pfont"><span>E</span>leme</view>
+      </swiper-item>
+      <swiper-item>
+          <image class="DY" src="/images/dy1.png" mode="heightFix"></image>
+
+        <view class="pfont"><span>D</span>ouyin</view>
+      </swiper-item>
+    </swiper>
+  </view>
+  
+  <image style="z-index:-1" class="beijin" src="/images/1.jpg"></image>
+
+</view>
